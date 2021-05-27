@@ -18,4 +18,16 @@
   <build>
     <finalName>devops66</finalName>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DESKTOP-4CS7BA7-releases</name>
+        <url>http://localhost:8081/artifactory/venky</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>DESKTOP-4CS7BA7-snapshots</name>
+        <url>http://localhost:8081/artifactory/venky</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
